@@ -1,0 +1,18 @@
+@import "variables";
+
+.button {
+    border: none;
+    padding: 14px 20px;
+    font-family: $poppins;
+    cursor: pointer;
+    background-color: $yellow;
+    color: $white;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+    outline: 0;
+
+    &:hover {
+        background-color: $white;
+        color: $yellow;
+    }
+}
